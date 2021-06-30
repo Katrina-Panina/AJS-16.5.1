@@ -91,3 +91,7 @@ test('Throw error on short or long name', () => {
   expect(() => new Character('L', 'Bowman')).toThrow();
   expect(() => new Character('LevLevLevLev', 'Bowman')).toThrow();
 });
+
+test('Throw error on type', () => {
+  expect(() => new Character('Lev', 'Archer')).toThrowError();
+});
