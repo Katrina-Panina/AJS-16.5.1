@@ -38,7 +38,7 @@ export default class Character {
         this.defence = 40;
         break;
       default: // do nothing;
-         break;
+        break;
     }
     this.name = name;
     this.type = type;
