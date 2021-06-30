@@ -25,15 +25,15 @@ export default class Character {
         this.attack = 10;
         this.defence = 40;
         break;
-      case 'Undead') {
+      case 'Undead':
         this.attack = 25;
         this.defence = 25;
         break;
-      case 'Zombie') {
+      case 'Zombie':
         this.attack = 40;
         this.defence = 10;
         break;
-      case 'Daemon') {
+      case 'Daemon':
         this.attack = 10;
         this.defence = 40;
         break;
